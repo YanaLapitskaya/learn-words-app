@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vocabulary</title>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="aws-sdk.min"></script>
+	 <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
+</head>
+<body>
+	 <h2 class="mdc-typography--display2">Hello, Material Components!</h2>
+    <div class="mdc-text-field" data-mdc-auto-init="MDCTextField">
+      <input type="text" class="mdc-text-field__input" id="demo-input">
+      <label for="demo-input" class="mdc-text-field__label">Tell us how you feel!</label>
+    </div>
+    
+	<h1>Service for learning languages</h1>
+	<p>Type words you want to learn</p>
+	<form>
+		<input type="text" name="text" id="wordsText">
+		<input type="button" name="button" value="Let's start!" id="sendButton">
+	</form>
+
+	<script src="node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script>mdc.autoInit()</script>
+</body>
+</html>
